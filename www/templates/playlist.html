@@ -1,0 +1,47 @@
+<ion-view view-title="Detay">
+  <ion-content>
+      
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="{{bilgi.logo}}">
+        <h3>{{bilgi.adi}}</h3>
+        <p>{{bilgi.kategori}}</p>
+      </div>
+    
+        <div class="item item-image">
+          <img src="{{bilgi.logo}}">
+        </div>
+        <p>
+          
+         <center> <div class="card">
+            <div class="item item-dark">
+             <b>İletişim</b>
+            </div>
+            <div class="item item-text-wrap">
+            <b>  <i>{{bilgi.tel}}</i></b> 
+            </div>
+            <div class="item item-dark">
+              <b>Genel Müdürlük</b>
+             </div>
+             <div class="item item-text-wrap">
+            <b>   <i>{{bilgi.adres}}</i></b> 
+             </div>
+            <div class="item item-dark">
+             <b>İnternet Sitesi</b>
+            </div>
+            <div class="item item-text-wrap">
+              <em> <b>  <i>{{bilgi.site}}</i></b> </em>
+            </div>
+          </div></center>
+            
+        </p>
+        <p>
+          <a href="#" class="subdued">1 Beğeni</a>
+          <a href="#" class="subdued">20 Yorum</a>
+        </p>
+      </div>
+    
+    </div>
+  </ion-content>
+</ion-view>

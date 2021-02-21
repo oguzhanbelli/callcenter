@@ -1,0 +1,35 @@
+<ion-view view-title="CallCenter">
+  <ion-content>
+
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Arama" ng-model="kelime">
+      </label>
+    </div>
+
+    <div class="card" ng-if="kelime && sonuc.length>0">
+      <div class="item item-text-wrap item-dark">
+         "{{kelime}}" kelimesine ait {{sonuc.length}} sonuç bulundu
+      </div>
+    </div>
+    <div class="card animate__animated animate__pulse" ng-if="kelime && sonuc.length==0 ">
+      <div class="item item-text-wrap item-dark">
+         "{{kelime}}" kelimesine ait sonuç bulunamadı..
+      </div>
+    </div>
+
+
+    <div class="list">
+
+      <a class="item item-avatar" ng-repeat="firma in firmalar | filter:kelime as sonuc"  href="#/app/playlists/{{firma.id}}">
+        <img src= "{{firma.logo}}" >
+        <h3>{{firma.adi}}</h2>
+        <p>{{firma.kategori}}</p>
+      </a>
+  
+      ...
+  
+  </div>
+  </ion-content>
+</ion-view>
