@@ -50,7 +50,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Oğuzhan Belli - [@oguzhanbelli](https://twitter.com/oguzhanbelli) - oguzhanbellii@gmail.com
 
-Project Link: [https://github.com/oguzhanbelli/yemektarifleri](https://github.com/oguzhanbelli/yemektarifleri)
+Project Link: [https://github.com/oguzhanbelli/callcenter](https://github.com/oguzhanbelli/callcenter)
 
 
 
